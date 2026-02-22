@@ -1,0 +1,9 @@
+"Stage","Diet","Model","Equation","R2","RMSE","AIC"
+"Adult","100%","Logan","rate ~ psi * (exp(rho * Temp) - exp(rho * Tmax - (Tmax - Temp)/Delta))",0.996443205527267,0.00235588203758315,-52.5084008338383
+"Adult","12%","Briere","rate ~ a * Temp * (Temp - Tmin) * sqrt(Tmax - Temp)",0.985001185639973,0.00277833682140943,-52.8590279599197
+"Adult","25%","Briere","rate ~ a * Temp * (Temp - Tmin) * sqrt(Tmax - Temp)",0.97519864231026,0.00403536015070038,-49.1265972456421
+"Adult","50%","Logan","rate ~ psi * (exp(rho * Temp) - exp(rho * Tmax - (Tmax - Temp)/Delta))",0.997508027524676,0.00157680745307968,-56.5235307542481
+"Pupal","100%","Logan","rate ~ psi * (exp(rho * Temp) - exp(rho * Tmax - (Tmax - Temp)/Delta))",0.996443205527267,0.00235588203758315,-52.5084008338383
+"Pupal","12%","Briere","rate ~ a * Temp * (Temp - Tmin) * sqrt(Tmax - Temp)",0.994868763317742,0.00184451599822657,-56.9553836748911
+"Pupal","25%","Logan","rate ~ psi * (exp(rho * Temp) - exp(rho * Tmax - (Tmax - Temp)/Delta))",0.996859800435914,0.00161299695663326,-56.2966136661502
+"Pupal","50%","Logan","rate ~ psi * (exp(rho * Temp) - exp(rho * Tmax - (Tmax - Temp)/Delta))",0.997957002120493,0.00147069280332254,-57.2202169443875
